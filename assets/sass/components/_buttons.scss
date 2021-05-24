@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+
+    .btn {
+        box-sizing: border-box;
+        position: relative;
+        left: 1050px;
+        top: 30px;
+        display: flex;
+        width: 25%;
+        background-color: $white;
+        &_send{
+            background-color: $orange;
+            margin-right: 1rem;
+        }
+    }
+    button {
+        background-color: $white;
+    
+        &:hover {
+            background-color: $orange;
+        }
+    }
+    }
+
+

@@ -1,0 +1,6 @@
+@mixin Anim {
+    @media (min-width: $min-phone) {
+      width: 50%; 
+    }
+}
+

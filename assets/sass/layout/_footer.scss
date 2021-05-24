@@ -1,0 +1,53 @@
+@media (min-width: 768px) {
+
+.footer{
+    color: white;
+}
+.Rights {
+    color: #ffffff;
+    text-align: left;
+    box-sizing: border-box;
+    position: relative;
+    top: 0px;
+    margin-left: 10rem;
+
+}
+
+.email , .form-control , .submit  {
+    box-sizing: border-box;
+    position: relative;
+    left: 400px;
+    top: 0px;
+    display: flex;
+    justify-content: flex-start;
+    width: 15%;
+    margin-left: 300px;
+    
+    
+        &:hover {
+            background-color: $orange;
+        }
+    }
+
+
+.form-label {
+    color: #ffffff;
+    box-sizing: border-box;
+    position: relative;
+    left: 320px;
+    top: -10px;
+    display: flex;
+    width: 15%;
+}
+
+.Anuncios {
+    margin-top: 2rem;
+    color: $white;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    left: 500px;
+}
+
+
+}

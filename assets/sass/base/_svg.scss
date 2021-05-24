@@ -1,0 +1,46 @@
+
+@media (min-width: 768px) {
+.Anim {
+    padding-top: 4.5rem;
+    width: 35%;
+    margin-left: 35%;
+    margin-bottom: 2.6rem;
+    transform: translate(0);
+}
+
+@keyframes giro {
+    0% { margin-left : 0 }
+    100% { margin-left : 10em ; }
+    
+    }
+
+.giro {
+    transform: rotate(4deg);
+    animation-name: move;
+    animation-duration : 1s ;
+    animation-timing-function : ease-in;
+    animation-iteration-count : 3 ;
+    animation-direction : alternate;
+    animation-fill-mode : forwards;
+    }
+
+
+@keyframes llave {
+    0% { margin-left : 0 }
+    100% { margin-left : 10em ; }
+    
+    }
+
+.llave {
+    transform: rotate(10deg);
+    animation-name: move;
+    animation-duration : 1s ;
+    animation-timing-function : infinite;
+    animation-iteration-count : 3 ;
+    animation-direction : alternate;
+    animation-fill-mode : forwards;
+    }
+}
+
+
+

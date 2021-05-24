@@ -1,0 +1,19 @@
+// Componentes del sitio
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+@import 'base/reset';
+@import 'base/svg';
+
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/img';
+
+@import 'components/buttons';
+
+@import 'pages/home';
+
+@import 'vendor/scss/bootstrap.scss';

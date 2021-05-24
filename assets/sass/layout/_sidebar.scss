@@ -1,0 +1,81 @@
+
+@media (min-width: 768px) {
+.container {
+    display: inline-flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 55%;
+
+}
+// Primer Bloque
+.content {
+    box-sizing: border-box;
+    margin-top: -530px;
+    margin-left: -230px;
+    width: 40%;
+    padding-bottom: 1rem;
+}
+
+.text1{
+    border: 2px solid $sable;
+    width: 40%;
+    height: 70%;
+}
+// Segundo Bloque
+.content_two {
+    box-sizing: border-box;
+    width: 40%;
+
+.text1_2 {
+    padding-top: 2.5rem;
+    text-align: center;
+    border: 2px solid $sable;
+    width: 40%;
+    height: 120%;
+
+    h1 {
+        text-align: center;
+    }
+    
+        h5 {
+        text-align: center;
+        color:$white;
+    }
+    }
+    .More {
+        text-align: center;
+        width: 45rem;
+        color:$white;
+    }
+.listone {
+    text-align: left;
+    padding-top: 2.5rem;
+}
+}
+
+// Tercer Bloque
+.content_2 {
+    padding-top: 0.5rem;
+    box-sizing: border-box;
+    margin-top: -530px;
+    margin-left: 0px;
+
+    .content_2_three_3{
+        border: 2px solid $sable;
+        width: 40%;
+        height: 70%;
+    }
+    
+    h1 {
+    text-align: center;
+}
+
+    h5 {
+    text-align: center;
+    color: $white;
+}
+    h3 {
+        text-align: left;
+    }
+}
+}
